@@ -52,6 +52,42 @@
       "appointments": [],
       "workHours": [],
       "hairCuts": []
+    },
+    {
+      "id": "231e",
+      "firstName": "Test",
+      "lastName": "Yass",
+      "email": "Yass@gmail.com",
+      "password": "Yassmine",
+      "phone": "0545217344",
+      "isLoggedIn": false,
+      "appointments": [],
+      "workHours": [],
+      "hairCuts": []
+    },
+    {
+      "id": "5db6",
+      "firstName": "Test",
+      "lastName": "Yass",
+      "email": "Yass@gmail.com",
+      "password": "Yassmineee",
+      "phone": "0545217344",
+      "isLoggedIn": true,
+      "appointments": [],
+      "workHours": [],
+      "hairCuts": []
+    },
+    {
+      "id": "81ea",
+      "firstName": "customer",
+      "lastName": "1",
+      "email": "Ya@h.com",
+      "password": "Yassmine",
+      "phone": "0545217344",
+      "isLoggedIn": true,
+      "appointments": [],
+      "workHours": [],
+      "hairCuts": []
     }
   ],
   "appointments": [
@@ -67,10 +103,18 @@
       "time": "16:49",
       "description": "Shampoo & Conditioner",
       "price": 50
+    },
+    {
+      "id": "ffcf",
+      "email": "",
+      "date": "2025-02-27",
+      "time": "19:21",
+      "description": "Hair Extensions",
+      "price": 150
     }
   ],
   "workHours": {
-    "openingTime": "10:00",
-    "closingTime": "19:00"
+    "openingTime": "08:00",
+    "closingTime": "20:00"
   }
 }
