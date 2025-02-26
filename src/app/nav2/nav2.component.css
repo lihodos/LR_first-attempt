@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #9050501c !important;   /* שימוש ב-!important כדי לוודא שהעיצוב יכנס */
+    font-family: 'Broadway', sans-serif !important;  /* מוודא שהגופן יהיה נכון */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  
+  .nav-item:hover {
+    background-color: #90505083;  /* אפקט hover */
+  }
+  .dropdown-menu {
+    background-color: #dd45450b;
+    border-radius: 5px;
+  }
+  
+  .dropdown-item {
+    color: #333;
+    padding: 10px 20px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #90505083
+  }

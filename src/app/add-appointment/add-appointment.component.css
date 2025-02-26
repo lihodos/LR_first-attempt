@@ -1,0 +1,48 @@
+
+.container {
+    margin-top: 20px;
+    max-width: 600px;
+  }
+  
+ /* עיצוב כלליות לטופס */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* עיצוב תיבת הבחירה */
+select.form-control {
+  font-family: Broadway;  /* הגדרת הגופן */
+  font-size: 16px;  /* גודל הגופן */
+  padding: 10px;  /* ריווח פנימי בתיבה */
+  border-radius: 5px;  /* פינות מעוגלות */
+  border: 1px solid #ccc;  /* גבול רך */
+  background-color: #f7f7f7;  /* צבע רקע בהיר */
+  color: #333;  /* צבע טקסט */
+  transition: background-color 0.3s ease;  /* אנימציה לשינוי צבע רקע */
+}
+
+select.form-control:hover {
+  background-color: #e0e0e0;  /* שינוי צבע רקע בעת מעבר עם העכבר */
+}
+
+/* עיצוב כותרת השדה */
+label {
+  font-family: 'Britannic Bold', sans-serif;
+  font-size: 18px;
+  color: #444;  /* צבע אפור כהה */
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* עיצוב תפריט לבחור */
+option {
+  font-family: 'Britannic Bold', sans-serif;
+  padding: 10px;  /* ריווח פנימי לאופציות */
+  background-color: #f8e3e367;  /* רקע לבן לאופציות */
+}
+
+/* עיצוב עבור תפריט בתפריט (בחר לא נבחר) */
+option:checked {
+  background-color: #c1c1c1;  /* צבע רקע בעת בחירת אופציה */
+  color: #000;  /* צבע טקסט בעת בחירה */
+}

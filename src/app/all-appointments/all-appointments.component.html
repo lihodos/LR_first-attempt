@@ -1,0 +1,25 @@
+<app-nav2></app-nav2>
+
+<div class="container">
+    <h2>All Appointments</h2>
+    <ul>
+      <h3>Today's Appointments</h3>
+      <li style="font-family: Broadway;" *ngFor="let appointment of todayAppointments">
+        {{ appointment.date }} - {{ appointment.time }}: {{ appointment.description }}
+      </li>
+    </ul>
+  
+    <button style="font-family: Broadway;" (click)="showFutureAppointments()">View Future Appointments</button>
+  
+    <div *ngIf="showFuture">
+      <h3>Future Appointments</h3>
+      <ul>
+        <li style="font-family: Broadway;" *ngFor="let appointment of futureAppointments">
+          {{ appointment.date }} - {{ appointment.time }}: {{ appointment.description }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  

@@ -1,0 +1,19 @@
+<app-nav2></app-nav2>
+
+
+<div class="container" >
+    <h2 >Welcome, {{ user.name }}!</h2>
+    <div class="user-info">
+      <p style="font-family: Broadway;"><strong>Name:</strong> {{ user.name }}</p>
+      <p style="font-family: Broadway;"><strong>Email:</strong> {{ user.email }}</p>
+     
+    </div>
+  
+    <div class="appointments">
+        <button class="btn btn-primary" (click)="goToAddAppointment()">Add Appointment</button>
+
+      <button class="btn btn-secondary" (click)="goToAllAppointments()">All Appointments</button>
+      <button class="btn btn-info" (click)="goToAddWorkHours()">Add Work Hours</button>
+    </div>
+  </div>
+  

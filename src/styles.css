@@ -1,0 +1,94 @@
+  /* הוספת גופנים */
+@import url('https://fonts.googleapis.com/css2?family=Britannic+Bold&family=Broadway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Broadway&display=swap');
+/* הגדרת הגופן */
+body,p, input, select, button, label {
+  font-family: 'Britannic Bold', sans-serif;
+}
+.navbar {
+    direction: ltr;  /* שים לב שזה חשוב אם אתה עובד עם שפות מימין לשמאל */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: left;
+  }
+
+
+/* הגדרות עיצוב כללי */
+body {
+  font-family: 'Britannic Bold', sans-serif;
+  background-color: #9050503e; /* צבע רקע בהיר */
+  color: #333333; /* צבע טקסט כהה */
+  margin: 0;
+  padding: 0;
+}
+p{
+    font-family: 'Britannic Bold', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Broadway', sans-serif; /* כותרות בגופן Broadway */
+  color: #d15d90; /* ורוד בהיר לכותרות */
+}
+
+
+
+button {
+  background-color: #d15d90; /* ורוד כהה */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ba4e78; /* ורוד כהה יותר בהוספת hover */
+}
+
+input[type="text"], input[type="time"], input[type="date"], textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+/* טפסים */
+form {
+  background-color: #c68e8e77;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+:host {
+    font-family: 'Britannic Bold', sans-serif;
+    background-color: #f21717;
+  }
+  
+  ::ng-deep .navbar {
+    background-color: pink !important;  /* שימוש ב-!important */
+    font-family: 'Broadway', sans-serif !important;
+  }
+  

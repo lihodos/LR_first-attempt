@@ -1,0 +1,56 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .user-info {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .appointments button {
+    margin: 10px;
+  }
+  /* עיצוב כללי של כפתורים */
+button {
+    font-family: 'Broadway', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* כפתור עם צבע ורוד בהיר */
+  .btn-primary {
+    background-color: #f06292;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d17b87; /* ורוד כהה יותר בהעברה על הכפתור */
+  }
+  
+  /* כפתור עם צבע אפור בהיר */
+  .btn-secondary {
+    background-color: #cccccc;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #a0a0a0; /* אפור כהה יותר בהעברה על הכפתור */
+  }
+  
+  /* כפתור עם צבע כחול בהיר */
+  .btn-info {
+    background-color: #64b5f6;
+    color: white;
+  }
+  
+  .btn-info:hover {
+    background-color: #42a5f5; /* כחול כהה יותר בהעברה על הכפתור */
+  }
+  

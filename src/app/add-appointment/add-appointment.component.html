@@ -1,0 +1,45 @@
+<app-nav2></app-nav2>
+<div class="container">
+    <h2>Add New Appointment</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label style="font-family: Broadway;" for="email">Email:</label>
+        <input type="email" class="form-control" name="email" [(ngModel)]="appointment.email" required />
+      </div>
+
+      <div class="form-group">
+        <label style="font-family: Broadway;" for="date">Date:</label>
+        <input type="date" class="form-control" name="date" [(ngModel)]="appointment.date" required>
+      </div>
+    
+      <div class="form-group">
+        <label style="font-family: Broadway;" for="time">Time:</label>
+        <input type="time" class="form-control" name="time" [(ngModel)]="appointment.time" required>
+      </div>
+    
+      <div class="form-group">
+        <label style="font-family: Broadway;" for="description">Description:</label>
+        <select class="form-control" name="description" [(ngModel)]="appointment.description">
+          <option style="font-family: Broadway;" value="" disabled selected>Select description</option>
+          <option style="font-family: Broadway;" *ngFor="let option of descriptionOptions" [value]="option">{{ option }}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label style="font-family: Broadway;" for="price">Price (₪):</label>
+        <input 
+          type="number" 
+          class="form-control" 
+          name="price" 
+          [(ngModel)]="appointment.price" 
+          required 
+          min="0" 
+          step="0.01"
+          placeholder="Enter price" 
+          style="font-family: Broadway;"/>
+      </div>
+      <p style="font-family: Broadway;" *ngIf="appointment.price != null">Price: {{ appointment.price | currency: 'ILS' }}</p>
+      <button style="font-family: Broadway;" type="submit" class="btn btn-primary" [disabled]="!appointment.date || !appointment.time || !appointment.description">
+        Schedule Appointment
+      </button>
+    </form>

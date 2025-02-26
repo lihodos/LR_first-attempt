@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "isLoggedIn": false,
+      "id": "31ce"
+    },
+    {
+      "id": "9678",
+      "firstName": "rita",
+      "lastName": "m",
+      "email": "room2sla@gmail.com",
+      "password": "123456",
+      "phone": "0547476479",
+      "isLoggedIn": true
+    },
+    {
+      "id": "5041",
+      "firstName": "rita",
+      "lastName": "m",
+      "email": "room2sla@gmail.com",
+      "password": "123456",
+      "phone": "0547476479"
+    },
+    {
+      "id": "f83e",
+      "firstName": "rita",
+      "lastName": "m",
+      "email": "room2sla@gmail.com",
+      "password": "123456",
+      "phone": "0547476479"
+    },
+    {
+      "id": "c3bc",
+      "firstName": "Yassmine",
+      "lastName": "Machour",
+      "email": "Y@h.com",
+      "password": "Yy12345678+",
+      "phone": "0541234567",
+      "isLoggedIn": false,
+      "appointments": [],
+      "workHours": [],
+      "hairCuts": []
+    },
+    {
+      "id": "8864",
+      "firstName": "aaa",
+      "lastName": "bbb",
+      "email": "aaa@bbb.co.il",
+      "password": "123456",
+      "phone": "0522588521",
+      "isLoggedIn": true,
+      "appointments": [],
+      "workHours": [],
+      "hairCuts": []
+    }
+  ],
+  "appointments": [
+    {
+      "id": "14d5",
+      "date": "2025-02-12",
+      "time": "15:09",
+      "description": "Shampoo & Conditioner"
+    },
+    {
+      "id": "1f17",
+      "date": "2025-02-06",
+      "time": "16:49",
+      "description": "Shampoo & Conditioner",
+      "price": 50
+    }
+  ],
+  "workHours": {
+    "openingTime": "10:00",
+    "closingTime": "19:00"
+  }
+}

@@ -1,0 +1,50 @@
+
+<app-nav1></app-nav1>
+
+<div class="main-container">
+    <header class="header">
+      <h1>Welcome To Our Salon</h1>
+     
+    </header>
+  
+
+    <section class="services">
+      <div class="service-cards">
+        <div class="service-card">
+          <img 
+            src="assets/images/1.jpeg" 
+            alt="1" 
+            class="service-image" 
+            [@hoverEffect]="currentState"
+            (mouseover)="toggleState()"
+            (mouseleave)="toggleState()"
+          />
+        </div>
+        <div class="service-card">
+          <img 
+            src="assets/images/2.jpeg" 
+            alt="2" 
+            class="service-image" 
+            [@hoverEffect]="currentState"
+            (mouseover)="toggleState()"
+            (mouseleave)="toggleState()"
+          />
+        </div>
+        <div class="service-card">
+          <img 
+            src="assets/images/3.jpeg" 
+            alt="3" 
+            class="service-image" 
+            [@hoverEffect]="currentState"
+            (mouseover)="toggleState()"
+            (mouseleave)="toggleState()"
+          />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="sparkle" style="top: 10%; left: 20%;"></div>
+<div class="sparkle" style="top: 40%; left: 50%;"></div>
+<div class="sparkle" style="top: 70%; left: 80%;"></div>
+<div class="sparkle" style="top: 90%; left: 30%;"></div>

@@ -1,0 +1,53 @@
+.registration-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    background-color: #f2bce33a;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+
+  }
+  
+  input.form-control.is-invalid {
+    border-color: rgba(123, 9, 9, 0.21);
+  }
+  
+  input.form-control.is-valid {
+    border-color: rgba(33, 31, 31, 0.627);
+  }
+
+  
+  button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #95beeabb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  button.btn:disabled {
+    background-color: #95beeabb;
+  }
+  
+  button.btn:hover:not(:disabled) {
+    background-color: #368feebb;
+  }
+  label{
+   font-family: Broadway;
+  }
